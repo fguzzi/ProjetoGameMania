@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Fábio Aurélio Guzzi - Curso Front-End Senai">
+    <title>Game Mania</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container-xl"> <!-- CONTAINER -->
+            <img class="logo" src="./images/vGame.png" alt=""> <!-- IMAGEM1 CABEÇALHO -->
+
+            <img class="img" src="/images/img1.jpg" alt=""> <!-- IMAGEM2 CABEÇALHO -->
+
+            <img class="hamburger" src="./images/hamb2.png" alt="Menu hamburger"> <!-- MENU HAMBURGER -->
+
+            <nav class="menu"> <!-- MENU PRINCIPAL -->
+                <a class="item" href="#">Inicio</a>
+                <a class="item" href="#">Games</a>
+                <a class="item" href="#">Consoles</a>
+                <a class="item" href="#">Informatica</a>
+                <a class="item" href="#">Curiosidades</a>
+                <a class="item" href="#">Meu Carrinho</a>
+                <input class="pesquisa" autocomplete="off" type="text" placeholder="Busca">
+            </nav>
+        </div>
+    </header>
+
+    <section> <!-- MOSTRUÁRIO DE ALGUNS PRODUTOS -->
+        <h1 class="anuncio">Conheça nossos produtos</h1>
+    </section>
+
+    <main>
+        <div class="container-xl"> <!-- CONTAINER COM UMA LINHA E SEIS COLUNAS -->
+            <div class="row1"> <!-- PRIMEIRA LINHA -->
+                <div class="col1"> <!-- PRIMEIRA COLUNA -->
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2500">
+                                <img class="imx" src="./images/console1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img class="imx" src="./images/console2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img class="imx" src="./images/console3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col1">
+                    <!-- SEGUNDA COLUNA -->
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2500">
+                                <img class="imx" src="./images/celular1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img class="imx" src="./images/celular2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img class="imx" src="./images/celular3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col1">
+                    <!-- TERCEIRA COLUNA -->
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2500">
+                                <img class="imx" src="./images/game1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img class="imx" src="./images/game2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img class="imx" src="./images/game3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col1"> <!-- QUARTA COLUNA -->
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2500">
+                            <img class="imx" src="./images/note1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img class="imx" src="./images/note2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img class="imx" src="./images/note3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col1"> <!-- QUINTA COLUNA -->
+                <div id="carouselExampleInte
+                rval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2500">
+                            <img class="imx" src="./images/pc1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img class="imx" src="./images/pc2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img class="imx" src="./images/pc3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col1">  <!-- SEXTA COLUNA -->
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2500">
+                        <img class="imx" src="./images/tablet1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img class="imx" src="./images/tablet2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img class="imx" src="./images/tablet3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            </div>
+        </div>
+    </main>
+    
+    <section> <!-- PRINCIPAIS OFERTAS -->
+        <h1 class="ofertas">Ofertas do mês ! Acesse e confira !</h1>
+    </section>
+
+    <div class="container2 text-center"> <!-- CONTAINER -->
+        <div class="row row-cols-2">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/oferta1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">A vista - 50% off</p> 
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/oferta2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">A vista 30% off</p>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/oferta3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">A vista 30% off</p>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/oferta4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">A vista 20% off</p>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/oferta5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">A vista 20% off</p>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/oferta6.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">A vista 10% off</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
