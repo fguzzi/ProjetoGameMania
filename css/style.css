@@ -24,20 +24,22 @@
 /* MODO DESKTOP - DE 992px EM DIANTE */
 body{
     max-width: 1200ppx;
-    background-color: rgb(210, 210, 210);
+    background-color: rgb(255, 255, 255);
 }
 
 header{
     max-width: 1200px;
     height: 350px;
     background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 
 header .container-xl{
     display: flex;
     flex-wrap: wrap;
     width: 1200px;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
 }
 
@@ -62,7 +64,9 @@ header .menu{
     height: 35px;
     text-transform: uppercase;
     margin-top: 60px;
-    margin-bottom: 60px;
+    
+    border: 1px solid black;
+    background-color: aquamarine;
 }
 
 header .item{
@@ -107,8 +111,8 @@ section .anuncio{
     text-shadow: 1px 1px rgb(123, 20, 20);
     justify-content: center;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 1px;
+    margin-top: 55px;
+    margin-bottom: 0.5px;
 }
 
 main{
@@ -138,7 +142,7 @@ section .ofertas{
     background-color: rgb(48, 160, 220);
     max-width: 1200px;
     max-height: 500px;
-    border: 2px solid rgb(248, 19, 38);
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
     font-family: "Taviraj-Regular";
     text-transform: uppercase;
@@ -147,6 +151,7 @@ section .ofertas{
     justify-content: center;
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .container2{
@@ -162,13 +167,43 @@ section .ofertas{
 }
 
 .text-center{
-    background-image: url(/images/lol2.jpg);
+    background-image: url(/images/lol.jpg);
     width: 1200px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
+.card{
+    border: 1px solid black;
+}
 
+footer{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 1200px;
+    background-color: rgb(255, 254, 254);
+    justify-content: center;
+}
 
+footer .redes{
+    display: flex;
+    justify-content: space-between;
+}
 
+footer .image{
+    width: 25px;
+    margin-right: 20px;
+}
+
+footer .endereco{
+    color: blue;
+    margin-left: 20px;
+}
+
+footer .cartao{
+    width: 20px;
+}
 
 
 
