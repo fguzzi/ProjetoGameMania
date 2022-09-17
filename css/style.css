@@ -28,7 +28,7 @@ body{
 }
 
 header{
-    max-width: 1200px;
+    width: 1200px;
     height: 350px;
     background-color: white;
     border-radius: 10px;
@@ -66,6 +66,7 @@ header .menu{
     margin-top: 60px;
     border: 1px solid black;
     background-color: aquamarine;
+    z-index: 100; /* CONTROLE DA CAMADA COM ELEMENTO POSITION */
 }
 
 header .item{
@@ -153,11 +154,6 @@ section .ofertas{
     margin-bottom: 20px;
 }
 
-.container2{
-    display: flex;
-    justify-content: space-between;
-
-}
 .card-text{
     font-family: "Taviraj Regular";
     font-size: large;
@@ -166,7 +162,8 @@ section .ofertas{
 }
 
 .text-center{
-    background-image: url(/images/lol.jpg);
+    background-image: url(/images/fundo1.jpg);
+     
     width: 1200px;
     border: 2px solid black;
     border-radius: 10px;
@@ -224,7 +221,7 @@ footer .cartao{
         left: -20%;       /* MENU INICIA ESCONDIDO */
         background-image: linear-gradient(rgba(0, 0, 0, 0.566), rgb(183, 176, 176));
         width: 20%;
-        height: 40%;
+        height: 70%;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
@@ -245,24 +242,12 @@ footer .cartao{
         border-color: rgba(13, 0, 255, 0.935);
         width: 140px;
     }
-    
-    #ofCinco{
-        display: none;
-    }
-    
-    #ofSeis{
-        display: none;
-    }
+       
 }
-
-
-
-
-
-
-
 
 
 /* MODO SMARTPHONE - ATÉ 767px */
 @media screen and (max-width: 767px) {
+
+   
 }

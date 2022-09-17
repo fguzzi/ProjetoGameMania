@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
      
-<body>
+<body>  
 
     <header>
         <div class="container-xl"> <!-- CONTAINER -->
@@ -38,9 +38,9 @@
     </section>
 
     <main>
-        <div class="container-xl"> <!-- CONTAINER COM UMA LINHA E SEIS COLUNAS -->
-            <div class="row1"> <!-- PRIMEIRA LINHA -->
-                <div class="col1"> <!-- PRIMEIRA COLUNA -->
+        <div class="container"> <!-- CONTAINER COM UMA LINHA E SEIS COLUNAS -->
+            <div class="row1"> <!-- LINHA ÚNICA -->
+                <div class="col-12 col-md-6 col-lg-3"> <!-- PRIMEIRA COLUNA -->
                     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="2500">
@@ -65,7 +65,8 @@
                         </button>
                     </div>
                 </div>
-                <div class="col"> <!-- SEGUNDA COLUNA -->
+
+                <div class="col-12 col-md-6 col-lg-3"> <!-- SEGUNDA COLUNA -->
                     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="2500">
@@ -90,7 +91,8 @@
                         </button>
                     </div>
                 </div>
-                <div class="col"> <!-- TERCEIRA COLUNA -->
+
+                <div class="col-12 col-md-6 col-lg-3"> <!-- TERCEIRA COLUNA -->
                     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="2500">
@@ -115,83 +117,11 @@
                         </button>
                     </div>
                 </div>
-                <div class="col1"> <!-- QUARTA COLUNA -->
-                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="2500">
-                            <img class="imx" src="./images/note1.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="2000">
-                            <img class="imx" src="./images/note2.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="2000">
-                            <img class="imx" src="./images/note3.jpg" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+                
+                 
                 </div>
             </div>
-            <div class="col1"> <!-- QUINTA COLUNA -->
-                <div id="carouselExampleInte
-                rval" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="2500">
-                            <img class="imx" src="./images/pc1.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="2000">
-                            <img class="imx" src="./images/pc2.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="2000">
-                            <img class="imx" src="./images/pc3.jpg" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-            <div class="col1">  <!-- SEXTA COLUNA -->
-                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="2500">
-                        <img class="imx" src="./images/tablet1.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img class="imx" src="./images/tablet2.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img class="imx" src="./images/tablet3.jpg" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-            </div>
-        </div>
+         </div>
     </main>
     
     <section> <!-- PRINCIPAIS OFERTAS -->
@@ -200,56 +130,73 @@
 
     <div class="container2 text-center"> <!-- CONTAINER -->
         <div class="row row-cols-2">
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="./images/oferta1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">A vista - 50% off</p> 
+            <div class="col-6 col-md-6 col-lg-3"> <!-- COLUNA 1 -->
+                <div class="card" style="width: 12rem;">
+                    <img src="./images/oferta1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text">A vista - 50% off</p> 
+                    </div>
                 </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="./images/oferta2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">A vista 30% off</p>
+            <div class="col-6 col-md-6 col-lg-3"> <!-- COLUNA 2 -->
+                <div class="card" style="width: 12rem;">
+                    <img src="./images/oferta2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text">A vista 30% off</p>
+                    </div>
                 </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="./images/oferta3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">A vista 30% off</p>
+            <div class="col-6 col-md-6 col-lg-3"> <!-- COLUNA 3 -->
+                <div class="card" style="width: 12rem;">
+                    <img src="./images/oferta3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text">A vista 30% off</p>
+                    </div>
                 </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="./images/oferta4.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">A vista 20% off</p>
+            <div class="col-6 col-md-6 col-lg-3"> <!-- COLUNA 4 -->
+                <div class="card" style="width: 12rem;">
+                    <img src="./images/oferta4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text">A vista 20% off</p>
+                    </div>
                 </div>
             </div>
-          </div>
-          <div class="col" id="ofCinco">
-            <div class="card" style="width: 18rem;">
-                <img src="./images/oferta5.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">A vista 20% off</p>
+            <div class="col-6 col-md-6 col-lg-3"> <!-- COLUNA 5 -->
+                <div class="card" style="width: 12rem;">
+                    <img src="./images/oferta5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text">A vista 20% off</p>
+                    </div>
                 </div>
             </div>
-          </div>
-          <div class="col" id="ofSeis">
-            <div class="card" style="width: 18rem;">
-                <img src="./images/oferta6.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">A vista 10% off</p>
+            <div class="col-6 col-md-6 col-lg-3"> <!-- COLUNA 6 -->
+                <div class="card" style="width: 12rem;">
+                    <img src="./images/oferta6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text">A vista 10% off</p>
+                    </div>
                 </div>
             </div>
-          </div>
+            <div class="col-6 col-md-6 col-lg-3"> <!-- COLUNA 7 -->
+                <div class="card" style="width: 12rem;">
+                    <img src="./images/oferta7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text">A vista 10% off</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3"> <!-- COLUNA 8 -->
+                <div class="card" style="width: 12rem;">
+                    <img src="./images/oferta8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">A vista 10% off</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </div>
+
     <footer>
         <div class="redes">
         <a href="https://www.instagram.com/">
