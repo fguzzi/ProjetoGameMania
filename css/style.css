@@ -210,6 +210,7 @@ footer .cartao{
 
     header{
         border: none;
+        height: 300px;
     }
 
     header .hamburger{       
@@ -242,12 +243,22 @@ footer .cartao{
         border-color: rgba(13, 0, 255, 0.935);
         width: 140px;
     }
-       
-}
+    
+    main .row1{
+        display: flex;
+        background-image: linear-gradient(black, grey);
+        justify-content: center;
+        max-width: 1200px;
+    }
 
+    section .anuncio{
+        margin-top: 20px;
+    }
+}
 
 /* MODO SMARTPHONE - ATÉ 767px */
 @media screen and (max-width: 767px) {
-
-   
+    main .container{
+        size: 1200px;
+    }
 }
