@@ -1,0 +1,82 @@
+* RESET CSS */
+*{              
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FONTES */
+@font-face{
+    font-family:"Roboto-Regular";
+    src:url(/fonts/roboto/Roboto-Regular.ttf)
+}
+
+@font-face {
+    font-family: "Roboto Thin";
+    src: url(/fonts/roboto/Roboto-Thin.ttf);
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.container-personalizado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-login{
+    padding: 50px;
+    width: 90%;
+    background-color: rgb(23, 17, 193);
+    border-radius: 10px;
+    min-width: 350px;
+    max-width: 980px;
+}
+
+.form-login .linha{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-login .linha label{
+    font-size: xx-large;
+    padding: 10px;
+    font-family: "Roboto-Regular";
+    margin-bottom: 20px;
+}
+
+.form-login .linha input{
+    font-size: x-large;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.form-login .btn-actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10px;    
+}
+
+.form-login .btn-actions button{
+    width: 48%;
+}
+
+.form-login .btn-actions .btn-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 35px;
+    width: 250px;
+    margin-top: 30px;
+}
+
+.form-login .btn-actions .btn-danger{
+    margin-left: 35px;
+    width: 250px;
+    margin-top: 30px;
+}
