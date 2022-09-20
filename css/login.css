@@ -31,10 +31,11 @@ body{
 .form-login{
     padding: 50px;
     width: 90%;
-    background-color: rgb(23, 17, 193);
+    background-image:radial-gradient(rgb(4, 24, 243), rgb(6, 6, 6));
     border-radius: 10px;
     min-width: 350px;
     max-width: 980px;
+    text-transform: uppercase;
 }
 
 .form-login .linha{
